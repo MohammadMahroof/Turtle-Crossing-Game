@@ -20,7 +20,6 @@ while game_is_on:
     time.sleep(0.1)
     screen.update()
 
-
     car_manager.create_car()
     car_manager.move_cars()
 
@@ -35,12 +34,6 @@ while game_is_on:
         player.go_to_start()
         car_manager.level_up()
         scoreboard.increase_level()
-
-
-
-
-
-
 
 
 screen.exitonclick()
